@@ -33,3 +33,53 @@ $(document).ready(function() {
 
     });
 });
+
+// portfolio section
+$(document).ready(function() {
+    $('#work1').hover(function() {
+        $('.centered1').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work2').hover(function() {
+        $('.centered2').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work3').hover(function() {
+        $('.centered3').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work4').hover(function() {
+        $('.centered4').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work5').hover(function() {
+        $('.centered5').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work6').hover(function() {
+        $('.centered6').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work7').hover(function() {
+        $('.centered7').slideToggle();
+
+    });
+});
+$(document).ready(function() {
+    $('#work8').hover(function() {
+        $('.centered8').slideToggle();
+
+    });
+});
