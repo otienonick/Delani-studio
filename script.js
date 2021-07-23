@@ -97,3 +97,23 @@ function validate() {
     }
 
 }
+
+// scroll up button
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 800) {
+            $('.up-btn').fadeIn();
+        } else {
+            $('.up-btn').fadeOut();
+        }
+    });
+
+    $('.up-btn').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 50);
+        return false;
+    });
+
+});
