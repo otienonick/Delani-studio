@@ -1,0 +1,19 @@
+.delani {
+    background: url('./assets/backgrounds/h_img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+}
+.words1 {
+    position: absolute;
+    top: 31%;
+    right: 0.5%;
+    color: #fff;
+}
+
+.image-bottom img {
+    position: absolute;
+    bottom: 5%;
+}
+
