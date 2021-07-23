@@ -17,3 +17,18 @@
     bottom: 5%;
 }
 
+.serve {
+    background: url('./assets/backgrounds/s_image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+    color: #fff;
+    position: relative;
+}
+
+.we-allign {
+    position: absolute !important;
+    top: 51%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
