@@ -120,7 +120,7 @@
         </div>
           <!-- PORTFOLIO SECTION -->
 
-    <div class="container  work">
+    <div class="container mb-5 work">
         <h2 class="text-center" >PORTFOLIO</h2>
 
         <div class="row row-cols-1 row-cols-md-2    row-cols-lg-4 g-2 g-md-2 g-lg-4 gy-lg-5">
@@ -183,6 +183,29 @@
             </div>
 
         </div>
+    </div>
+     <!-- COMMENT SECTION -->
+     <div class="container-fluid  arrange">
+        <form onsubmit="return false" class="row leave-message" id="messenger">
+            <h2 class="text-center g-5">CONTACT US</h2>
+            <div class="col-md-4 col-4">
+                <label for="name" class="form-label"></label>
+                <input type="text" class="form-control " id="name" placeholder="Name..." required>
+            </div>
+            <div class="col-md-4 col-4">
+                <label for="email" class="form-label"></label>
+                <input type="email" class="form-control" id="email" placeholder="Email..." required>
+            </div>
+            <div class="col-md-7  side">
+                <label for="message" class="form-label"></label>
+                <input type="text" class="form-control  msg-area" id="message" minlength="10" placeholder="Your message here..." required>
+            </div>
+
+            <div class="row "></div>
+            <div class="row  col-md-1 ">
+                <button type="submit" onclick="validate()" id="submit-btn" class="btn ">Send</button>
+            </div>
+        </form>
     </div>
 
 
