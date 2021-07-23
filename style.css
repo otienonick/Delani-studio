@@ -82,4 +82,46 @@ p{
     transform: scale(1.05);
     cursor: pointer;
 }
+.leave-message {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.arrange {
+    height:88vh;
+    background: url('./assets/backgrounds/c_image.jpg');
+}
+
+.leave-message h1 {
+    text-align: center;
+}
+
+.msg-area {
+    padding-bottom: 33%;
+    
+}
+.side{
+    margin-left: 3.5%;
+    width: 63%;
+}
+
+input {
+    background: transparent !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+
+ ::placeholder {
+    color: #fff !important;
+}
+
+button {
+    color: #fff !important;
+}
+
+button:active {
+    box-shadow: none !important;
+    transform: scaleX(.98);
+}
 
