@@ -83,3 +83,17 @@ $(document).ready(function() {
 
     });
 });
+// contact us section
+
+function validate() {
+    var myName = document.getElementById('name').value;
+    var myEmail = document.getElementById('email').value;
+    var myMessage = document.getElementById('message').value;
+
+    if ((myName != '' && myEmail != '') && (myMessage != '' && myMessage.length > 10)) {
+        swal("Message sent! ", myName + " we have received your message. Thank you for reaching out to us.", "success");
+    } else {
+        return false;
+    }
+
+}
