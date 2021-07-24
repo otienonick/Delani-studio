@@ -92,9 +92,14 @@ function validate() {
 
     if ((myName != '' && myEmail != '') && (myMessage != '' && myMessage.length > 10)) {
         swal("Message sent! ", myName + " we have received your message. Thank you for reaching out to us.", "success");
-    } else {
-        return false;
+
+        // document.getElementById("name").value = '';
+        // document.getElementById("email").value = '';
+        // document.getElementById('message').value = '';
+    // } else {
+    //     return false;
     }
+
 
 }
 
