@@ -16,7 +16,7 @@
 * JQUERY
 
 
-#### LICENCE
+### LICENCE
 <img src="assets/README-pics/number1.png" alt="intro page">
 <img src="assets/README-pics/number2.png" alt="about us and services">
 <img src="assets/README-pics/number3.png" alt="what we do and portfolio">
