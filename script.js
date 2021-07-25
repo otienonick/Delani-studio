@@ -83,25 +83,49 @@ $(document).ready(function() {
 
     });
 });
+
 // contact us section
+$(document).ready(function(){
+    $('#myModal').modal('hide');
+    
+
+})
+$(document).ready(function(){
+    $('#takeMe').click(function(){
+        $('form').submit();
+        $('#name').val('')
+        $('#email').val('')
+        $('#message').val('')
+
+    });
+    
+
+})
+
 
 function validate() {
     var myName = document.getElementById('name').value;
     var myEmail = document.getElementById('email').value;
     var myMessage = document.getElementById('message').value;
 
-    if ((myName != '' && myEmail != '') && (myMessage != '' && myMessage.length > 10)) {
-        swal("Message sent! ", myName + " we have received your message. Thank you for reaching out to us.", "success");
 
-        // document.getElementById("name").value = '';
-        // document.getElementById("email").value = '';
-        // document.getElementById('message').value = '';
-    // } else {
-    //     return false;
+    if (myName != '' && myEmail != '' && (myMessage != '' && myMessage.length > 10)) {
+       document.getElementById('show').innerHTML =  myName +" we have received your message.<br> Thank you for reaching out to us." 
+        $("#myModal").modal('show');
+          $(document).on('click', '#submit-btn', function(e){
+             e.preventDefault();
+         });
+       
+  
     }
-
+    else{ 
+         return false;
+    
+        }
+       
 
 }
+
 
 // scroll up button
 
